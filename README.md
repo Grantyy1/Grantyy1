@@ -17,7 +17,7 @@
 - 💬 Connect? Lets get social @ **https://www.linkedin.com/in/grant-peverett-1308a330a/**
 
 <br/>
-I have held numerous IT positions including software analyst and project management for world market leaders. I have a wide range of technology experience ranging from microcomputer support to programming in numerous languages utilizing a variety of databases and hardware platforms. 
+I am very interested in computers and technology. I am worked with a few language and have completed a prjects as well.
 <br/>
 
 <h3>Education</h3>
