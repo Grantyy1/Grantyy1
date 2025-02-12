@@ -17,7 +17,7 @@
 - 💬 Connect? Lets get social @ **https://www.linkedin.com/in/grant-peverett-1308a330a/**
 
 <br/>
-I am very interested in computers and technology. I am worked with a few language and have completed a prjects as well.
+I am very interested in computers and technology. I am worked with a few language and have completed a projects in c++, python, java & mysql.
 <br/>
 
 <h3>Education</h3>
