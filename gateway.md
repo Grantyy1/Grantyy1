@@ -1,45 +1,133 @@
-# Grant Peverett - Gateway Portfolio
+# :computer: Grant Peverett - Gateway Portfolio
 
 [![GitHub](https://img.shields.io/badge/GitHub-Grantyy1-181717?style=flat&logo=github)](https://github.com/Grantyy1)
-[![College](https://img.shields.io/badge/Wayne_State_College-Student-FFD700?style=flat&logo=education)](https://www.wsc.edu)
+[![College](https://img.shields.io/badge/Wayne_State_College-CIS352-FFD700?style=flat)](https://www.wsc.edu)
+[![COBOL](https://img.shields.io/badge/COBOL-Enterprise_Computing-blue?style=flat)]()
 
-Welcome to my gateway portfolio. This repository serves as a central hub linking to all of my academic and personal projects. Each entry below includes a brief summary, the technologies used, and a direct link to the full project repository.
-
----
-
-## Table of Contents
-
-| Repository | Primary Tech | Category |
-|:-----------|:-------------|:---------|
-| [RPT1000](#rpt1000) | COBOL / JCL | CIS352 - Introduction to Enterprise Computing |
-| [RPT6000](#rpt6000) | COBOL / JCL | CIS352 - Introduction to Enterprise Computing |
-| [Colorado Hiking Trails](#colorado-hiking-trails) | HTML / CSS | Web Development |
-| [Michael Jordan Tribute Page](#michael-jordan-tribute-page) | HTML / CSS | Web Development |
-| [CSS Flexbox Assignments](#css-flexbox-assignments) | HTML / CSS | Web Development |
-| [Networking Lab References](#networking-lab-references) | Cisco IOS CLI | Networking / CCNA |
-<!-- ADD MORE ROWS AS NEEDED -->
+Welcome to my gateway portfolio. This repository is a central hub linking to all of my COBOL/JCL projects completed during **CIS352 - Introduction to Enterprise Computing** at Wayne State College. Each project was developed on the IBM z/OS mainframe using TSO/ISPF and compiled with the IGYWCLG procedure.
 
 ---
 
-## RPT1000
+## :bookmark_tabs: Table of Contents
+
+| # | Repository | Primary Tech | Category | Author(s) |
+|:-:|:-----------|:-------------|:---------|:----------|
+| 1 | [UTIL2000](#util2000) | COBOL / JCL | Utility Billing Program | Grant Peverett |
+| 2 | [CALC2000](#calc2000) | COBOL / JCL | Investment Future Value Calculator | Grant Peverett, Garret Finke |
+| 3 | [RPT2000](#rpt2000) | COBOL / JCL | Sales Report Program | Grant Peverett, Hayden Schmidt |
+| 4 | [RPT3000](#rpt3000) | COBOL / JCL | YTD Sales Report (Branch Totals) | Grant Peverett, Kayley Wells |
+| 5 | [RPT5000](#rpt5000) | COBOL / JCL | YTD Sales Report (Control Break) | Grant Peverett |
+| 6 | [RPT6000](#rpt6000) | COBOL / JCL / Copybooks | YTD Sales Report (COPY/Table) | Grant Peverett, Kayley Wells |
+| 7 | [SEQ3000](#seq3000) | COBOL / JCL | Sequential File Maintenance | Grant Peverett |
+
+---
+
+## UTIL2000
 
 **CIS352 - Introduction to Enterprise Computing**
 
-> A COBOL report program developed on the IBM z/OS mainframe environment. This project generates formatted reports from structured data files using mainframe batch processing.
+> A COBOL utility billing program that calculates service fees for three customers. The program computes three tiers of charges based on kilowatt-hour consumption levels, displays KWH usage, and produces a total billing amount for each customer.
 
 | Detail | Info |
 |:-------|:-----|
 | **Tech Stack** | COBOL, JCL, TSO/ISPF |
-| **Key Concepts** | Mainframe batch processing, report generation, file I/O, JCL job control |
-| **Status** | Completed |
+| **Key Concepts** | Tiered rate calculation, DISPLAY output formatting, COMPUTE statements, conditional logic for rate brackets |
+| **Status** | :white_check_mark: Completed |
 | **Type** | Course Project |
 
-<!-- ![RPT1000 Screenshot](assets/rpt1000-screenshot.png) -->
-*Replace the line above with an actual screenshot of your program output or JCL job results.*
+:link: [View Repository](https://github.com/Grantyy1/COBOL-UTIL2000)
 
-:link: [View Repository](https://github.com/Grantyy1/RPT1000)
+![UTIL2000 Output - Part 1](assets/util2000-output-1.png)
+![UTIL2000 Output - Part 2](assets/util2000-output-2.png)
 
-[Back to Table of Contents](#table-of-contents)
+[Back to Table of Contents](#bookmark_tabs-table-of-contents)
+
+---
+
+## CALC2000
+
+**CIS352 - Introduction to Enterprise Computing**
+
+> A COBOL program that calculates the future value of an investment using a fixed annual interest rate over a fixed number of years. After the first calculation, it doubles the investment amount twice, recalculating the future value each time for a total of three future-value results.
+
+| Detail | Info |
+|:-------|:-----|
+| **Tech Stack** | COBOL, JCL, TSO/ISPF |
+| **Key Concepts** | Future value calculation, COMPUTE statements, procedure-driven paragraphs, working-storage data items, DISPLAY output formatting, iterative doubling logic |
+| **Status** | :white_check_mark: Completed |
+| **Type** | Course Project (Collaborative) |
+| **Collaborator** | [Garret Finke (gafink01)](https://github.com/gafink01) |
+
+:link: [View Repository](https://github.com/gafink01/Cobol-CALC2000)
+
+![CALC2000 Output](https://github.com/gafink01/Cobol-CALC2000/blob/main/assets/Output%20image.png?raw=true)
+
+[Back to Table of Contents](#bookmark_tabs-table-of-contents)
+
+---
+
+## RPT2000
+
+**CIS352 - Introduction to Enterprise Computing**
+
+> A COBOL report program that calculates the change in each customer's sales from the previous year compared to the current year. It computes both the dollar amount difference and the percentage change, then outputs a formatted report showing branch number, sales rep, customer details, and both sales figures alongside the calculated changes.
+
+| Detail | Info |
+|:-------|:-----|
+| **Tech Stack** | COBOL, JCL, TSO/ISPF |
+| **Key Concepts** | Report generation, COMPUTE with percentage calculations, formatted print lines, working-storage data items, MOVE and COMPUTE operations |
+| **Status** | :white_check_mark: Completed |
+| **Type** | Course Project (Collaborative) |
+| **Collaborator** | [Hayden Schmidt (Haschm05)](https://github.com/Haschm05) |
+
+:link: [View Repository](https://github.com/Haschm05/COBOL_RPT2000)
+
+![RPT2000 Output](assets/rpt2000-output.png)
+
+[Back to Table of Contents](#bookmark_tabs-table-of-contents)
+
+---
+
+## RPT3000
+
+**CIS352 - Introduction to Enterprise Computing**
+
+> A COBOL report program that calculates the year-over-year change in each customer's sales and the corresponding percentage change. It outputs a formatted Year-To-Date Sales Report showing branch number, sales rep, customer number, customer name, current and previous year sales, the dollar change, and the percentage change. The report includes **branch subtotals** and a **grand total** line summarizing all branches.
+
+| Detail | Info |
+|:-------|:-----|
+| **Tech Stack** | COBOL, JCL, TSO/ISPF |
+| **Key Concepts** | Report generation with branch subtotals and grand totals, COMPUTE with percentage calculations, formatted print lines, working-storage data items, header/detail/summary line printing |
+| **Status** | :white_check_mark: Completed |
+| **Type** | Course Project (Collaborative) |
+| **Collaborator** | [Kayley Wells (kayley-wells)](https://github.com/kayley-wells) |
+
+:link: [View Repository](https://github.com/kayley-wells/RPT3000)
+
+![RPT3000 Output](assets/rpt3000-output.png)
+
+[Back to Table of Contents](#bookmark_tabs-table-of-contents)
+
+---
+
+## RPT5000
+
+**CIS352 - Introduction to Enterprise Computing**
+
+> A COBOL program that generates a Year-To-Date Sales Report comparing each customer's current-year sales against the previous year. It calculates the dollar change and percentage change, then uses a **two-level control break** structure to produce subtotals at the sales representative level and branch level, plus a grand total across all branches. The report includes formatted headings with the current date, time, and page numbers.
+
+| Detail | Info |
+|:-------|:-----|
+| **Tech Stack** | COBOL, JCL, TSO/ISPF |
+| **Key Concepts** | Two-level control break processing, accumulators for subtotals/grand totals, COMPUTE with ROUNDED and ON SIZE ERROR, 88-level condition names, page overflow handling, formatted report headings with date/time |
+| **Status** | :white_check_mark: Completed |
+| **Type** | Course Project |
+
+:link: [View Repository](https://github.com/Grantyy1/COBOL_RPT5000)
+
+![RPT5000 Output](assets/rpt5000-output.png)
+
+[Back to Table of Contents](#bookmark_tabs-table-of-contents)
 
 ---
 
@@ -47,146 +135,50 @@ Welcome to my gateway portfolio. This repository serves as a central hub linking
 
 **CIS352 - Introduction to Enterprise Computing**
 
-> An advanced COBOL report program featuring REDEFINES, OCCURS/SEARCH, and COPY members. Built collaboratively with Kayley Wells on the IBM z/OS mainframe. This program reads structured data files and produces formatted printed reports using advanced data handling techniques.
+> An advanced version of the YTD Sales Report that builds on RPT5000 by incorporating **COPY members (copybooks)** and **table handling** with OCCURS and SEARCH. The program reads customer master records and sales rep data from separate copybook-defined layouts, performs lookups, and generates the same control-break report structure with subtotals and grand totals. Developed collaboratively with Kayley Wells.
 
 | Detail | Info |
 |:-------|:-----|
 | **Tech Stack** | COBOL, JCL, TSO/ISPF, Copybooks |
-| **Key Concepts** | REDEFINES, OCCURS/SEARCH, COPY members, table handling, advanced report formatting |
-| **Status** | Completed |
+| **Key Concepts** | COPY members, REDEFINES, OCCURS/SEARCH for table lookups, copybook-driven record layouts, control break processing, IGYWCLG compile procedure |
+| **Status** | :white_check_mark: Completed |
 | **Type** | Course Project (Collaborative) |
-
-<!-- ![RPT6000 Screenshot](assets/rpt6000-screenshot.png) -->
-*Replace the line above with an actual screenshot of your program output or JCL job results.*
+| **Collaborator** | [Kayley Wells (kayley-wells)](https://github.com/kayley-wells) |
 
 :link: [View Repository](https://github.com/Grantyy1/RPT6000)
 
-[Back to Table of Contents](#table-of-contents)
+![RPT6000 Output](assets/rpt6000-output.png)
+
+[Back to Table of Contents](#bookmark_tabs-table-of-contents)
 
 ---
 
-## Colorado Hiking Trails
+## SEQ3000
 
-**Web Development**
+**CIS352 - Introduction to Enterprise Computing**
 
-> A multi-page website showcasing hiking trails across Colorado. Developed across multiple milestones including site mapping, wireframing, planning analysis, and full HTML/CSS implementation with Flexbox layouts.
+> A COBOL sequential file maintenance program that processes an Old Employee Master file alongside a Personnel Transaction file using the **balanced-line algorithm**. It handles three HR actions: Add (hire), Delete (terminate), and Change (update fields). Valid transactions produce an updated New Employee Master file, while invalid transactions are written to an Error Transaction file with full file status checking.
 
 | Detail | Info |
 |:-------|:-----|
-| **Tech Stack** | HTML5, CSS3, Flexbox |
-| **Key Concepts** | Site planning (site maps, wireframes), responsive layout with Flexbox, multi-page navigation, CSS positioning |
-| **Status** | Completed |
+| **Tech Stack** | COBOL, JCL, TSO/ISPF |
+| **Key Concepts** | Balanced-line algorithm, sequential file maintenance (Add/Delete/Change), FILE STATUS checking, HIGH-VALUE end-of-file sentinels, 88-level condition names, graceful error termination, READ INTO / WRITE FROM idioms |
+| **Status** | :white_check_mark: Completed |
 | **Type** | Course Project |
 
-<!-- ![Colorado Hiking Screenshot](assets/colorado-hiking-screenshot.png) -->
-*Replace the line above with an actual screenshot of your site.*
+:link: [View Repository](https://github.com/Grantyy1/SEQ3000)
 
-:link: [View Repository](https://github.com/Grantyy1/colorado-hiking-trails)
+![SEQ3000 Output](assets/seq3000-output.png)
 
-[Back to Table of Contents](#table-of-contents)
-
----
-
-## Michael Jordan Tribute Page
-
-**Web Development**
-
-> A tribute page dedicated to Michael Jordan, built and iteratively updated across multiple assignments. Features external stylesheets, embedded CSS, inline styles, and a navigation bar.
-
-| Detail | Info |
-|:-------|:-----|
-| **Tech Stack** | HTML5, CSS3 (External, Embedded, Inline) |
-| **Key Concepts** | CSS specificity, external vs. embedded vs. inline styles, navigation bars, page structure |
-| **Status** | Completed |
-| **Type** | Course Project |
-
-<!-- ![MJ Tribute Screenshot](assets/mj-tribute-screenshot.png) -->
-*Replace the line above with an actual screenshot of your tribute page.*
-
-:link: [View Repository](https://github.com/Grantyy1/michael-jordan-tribute)
-
-[Back to Table of Contents](#table-of-contents)
+[Back to Table of Contents](#bookmark_tabs-table-of-contents)
 
 ---
-
-## CSS Flexbox Assignments
-
-**Web Development**
-
-> A collection of CSS exercises covering Flexbox layout techniques and CSS positioning from Chapters 7 and 8. These assignments demonstrate responsive design principles and modern CSS layout methods.
-
-| Detail | Info |
-|:-------|:-----|
-| **Tech Stack** | HTML5, CSS3, Flexbox |
-| **Key Concepts** | Flex containers and items, justify-content, align-items, flex-wrap, CSS positioning (relative, absolute, fixed) |
-| **Status** | Completed |
-| **Type** | Course Project |
-
-<!-- ![Flexbox Screenshot](assets/flexbox-screenshot.png) -->
-*Replace the line above with an actual screenshot.*
-
-:link: [View Repository](https://github.com/Grantyy1/css-flexbox)
-
-[Back to Table of Contents](#table-of-contents)
-
----
-
-## Networking Lab References
-
-**Networking / CCNA Coursework**
-
-> A collection of Cisco networking lab command references covering static and default routing, EtherChannel (LACP), VLANs and trunking, DHCPv4, inter-VLAN routing, wireless networking, and Spanning Tree Protocol.
-
-| Detail | Info |
-|:-------|:-----|
-| **Tech Stack** | Cisco IOS CLI, Packet Tracer |
-| **Key Concepts** | Static/default routing (IPv4/IPv6), EtherChannel, VLANs, trunking, DHCPv4, router-on-a-stick, Layer 3 switching, STP |
-| **Status** | Completed |
-| **Type** | Course Project |
-
-<!-- ![Networking Lab Screenshot](assets/networking-screenshot.png) -->
-*Replace the line above with a screenshot of your Packet Tracer topology or CLI output.*
-
-:link: [View Repository](https://github.com/Grantyy1/networking-labs)
-
-[Back to Table of Contents](#table-of-contents)
-
----
-
-<!-- 
-======================================================
-  TEMPLATE FOR ADDING MORE PROJECTS
-  Copy everything between the dashed lines and fill in
-======================================================
-
----
-
-## Project Name Here
-
-**Course or Category Here**
-
-> One to two sentence summary of what the project does and why it matters.
-
-| Detail | Info |
-|:-------|:-----|
-| **Tech Stack** | List technologies here |
-| **Key Concepts** | List key learning concepts |
-| **Status** | Completed / In Progress |
-| **Type** | Course Project / Self-Project |
-
-![Screenshot](assets/your-screenshot.png)
-
-:link: [View Repository](https://github.com/Grantyy1/your-repo-name)
-
-[Back to Table of Contents](#table-of-contents)
-
----
--->
 
 ## About Me
 
-Grant Peverett  
+**Grant Peverett**  
 Wayne State College, Wayne, NE  
-Studying Double Bachelors in Cybersecurity/Networking & Drafting/Design
+CIS352 - Introduction to Enterprise Computing  
 
 [![GitHub](https://img.shields.io/badge/GitHub-Grantyy1-181717?style=flat&logo=github)](https://github.com/Grantyy1)
+[![Email](https://img.shields.io/badge/Email-grpeve01%40wsc.edu-blue?style=flat&logo=gmail)](mailto:grpeve01@wsc.edu)
